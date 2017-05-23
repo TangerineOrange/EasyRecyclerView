@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cafe.view.easyrecyclerview.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <!-- Scale is being used during entry animation -->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_quiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fabSize="normal"
+        android:transitionName="@string/transition_avatar"
+        tools:ignore="UnusedAttribute"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/spacing_double"
+        android:layout_marginEnd="@dimen/spacing_double"
+        android:layout_marginRight="@dimen/spacing_double"
+        />
+
+
+
+
+</RelativeLayout>
